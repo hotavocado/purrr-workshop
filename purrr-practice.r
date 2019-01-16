@@ -23,5 +23,7 @@ got_chars_named <- set_names(got_chars, map_chr(got_chars, "name"))
 
 map_lgl(got_chars_named, "alive") %>% enframe()
 
+#checkout pmap
+
 
 got_chars[[1]]
